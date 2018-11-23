@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- font-awesome css -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="../css/navigation.css">
+    <!-- custom css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  </head>
+  <body>
+
+<header>
+     <nav class="navbar navbar-expand-lg navbar-light logo-nav">
+      <div class="container">
+        <a class="navbar-brand px-5" href="../index.html" style="color: white;font-weight: bolder;"><img src="img/loog42.png">Delta Air</a>
+  
+               <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarText">
+                 <span class="navbar-text">
+                   <a href="#"><i class="fa fa-phone" aria-hidden="true"></i>+91 9289228888 or +91 9958962222 </a>
+                 </span>
+            </div>
+        </div>
+    </nav>
+
+
+      <nav id="navbar-example" class="navbar navbar-expand-lg main-nav">
+        <div class="container">
+          <a class="navbar-brand" href="#"></a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+                <i class="fa fa-bars fa" aria-hidden="true"></i>
+            </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav main mx-auto">
+              <li class="nav-item">
+                <a class="nav-link px-5" href="Booking.html">Plan & Book</a>
+              </li>
+
+
+             <li class="nav-item">
+                <a class="nav-link px-5" href="check-in.html">Check-In</a>
+              </li>
+    
+
+              <li class="nav-item">
+                <a class="nav-link px-5" href="deals-offer-club-deals.html">Deals &amp; Offers</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link px-5" href="vista-experience.html">Experience</a>
+              </li>
+               
+            </ul>
+
+                    <ul class="navbar-nav nav-flex-icons">
+                <li class="nav-item">
+                    <a class="nav-link" href="#modalLogin" data-toggle="modal"><i class="fa fa-lock px-2" aria-hidden="true"></i>Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#modalRegister" data-toggle="modal"><i class="fa fa-user px-2" aria-hidden="true"></i>Sign Up</a>
+                </li> 
+               
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </section>
+    </header>
+
+
+   <!--Modal: Login Form-->
+    <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog cascading-modal" role="document">
+            <!--Content-->
+            <div class="modal-content">
+    
+                <!--Header-->
+                <div class="modal-header light-blue darken-3 white-text">
+                    <h4 class="title"><i class="fa fa-user"></i> Log in</h4>
+                    <button type="button" class="close waves-effect waves-light" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!--Body-->
+                <div class="modal-body">
+                    <div class="md-form form-sm">
+                        <i class="fa fa-envelope prefix"></i>
+                        <input type="text" id="form30" class="form-control">
+                        <label for="form30">Your email</label>
+                    </div>
+    
+                    <div class="md-form form-sm">
+                        <i class="fa fa-lock prefix"></i>
+                        <input type="password" id="form31" class="form-control">
+                        <label for="form31">Your password</label>
+                    </div>
+    
+                    <div class="text-center mt-2">
+                        <button class="btn btn-info">Log in <i class="fa fa-sign-in ml-1"></i></button>
+                    </div>
+    
+                </div>
+                <!--Footer-->
+                <div class="modal-footer">
+                    <div class="options text-center text-md-right mt-1">
+                        <p>Not a member? <a href="#">Sign Up</a></p>
+                        <p>Forgot <a href="#">Password?</a></p>
+                    </div>
+                    <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            <!--/.Content-->
+        </div>
+    </div>
+    <!--Modal: Login Form-->
+    
+                                                
+
+    <!--Modal: Register Form-->
+    <div class="modal fade" id="modalRegister" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog cascading-modal" role="document">
+            <!--Content-->
+            <div class="modal-content">
+    
+                <!--Header-->
+                <div class="modal-header light-blue darken-3 white-text">
+                    <h4 class="title"><i class="fa fa-user-plus"></i> Register</h4>
+                    <button type="button" class="close waves-effect waves-light" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!--Body-->
+                <div class="modal-body">
+                    <div class="md-form form-sm">
+                        <i class="fa fa-envelope prefix"></i>
+                        <input type="text" id="form32" class="form-control">
+                        <label for="form32">Your email</label>
+                    </div>
+    
+                    <div class="md-form form-sm">
+                        <i class="fa fa-lock prefix"></i>
+                        <input type="password" id="form33" class="form-control">
+                        <label for="form33">Your password</label>
+                    </div>
+    
+                    <div class="md-form form-sm">
+                        <i class="fa fa-lock prefix"></i>
+                        <input type="password" id="form34" class="form-control">
+                        <label for="form34">Repeat password</label>
+                    </div>
+    
+                    <div class="text-center mt-2">
+                        <button class="btn btn-info">Sign up <i class="fa fa-sign-in ml-1"></i></button>
+                    </div>
+    
+                </div>
+                <!--Footer-->
+                <div class="modal-footer">
+                    <div class="options text-center text-md-right mt-1">
+                        <p>Already have an account? <a href="#modalLogin">Log In</a></p>
+                    </div>
+                    <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            <!--/.Content-->
+        </div>
+    </div>
+
+
+    <section id="club-deals">
+      <div class="container">
+        <img src="img/477f4314092295.5627d38fd3077.jpg" class="img-fluid">
+        <h1 class="mt-4">Deals &amp; Offers</h1>
+        <p>A host of special benefits await you, when you fly with us!  Exclusive offers and special privileges on your Boarding Pass, it just does not get better. Simply present your Vistara boarding pass within 1 week of your travel at the participating outlets, and get surprised with our discounts for you. Incorporating hotel accommodation, shopping, dining and so much more, we make sure all your needs are taken care of.</p>
+      </div>
+    </section>
+
+
+
+
+
+
+    <section id="checkin" class="mt-5">
+      <div class="container">
+        <nav class="nav nav-tabs d-flex justify-content-center" id="myTab" role="tablist">
+          <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home1" role="tab" aria-controls="nav-home" aria-expanded="true" class="mr-3"> BOARDING PASS EXCLUSIVES</a>
+          <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-home2" role="tab" aria-controls="nav-profile">CLUB DEALS</a>
+          <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-home3" role="tab" aria-controls="nav-profile">PARTNERSHIP DEALS</a>
+        </nav>
+        <div class="tab-content mt-4" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-home1" role="tabpanel" aria-labelledby="nav-home-tab">
+            <div class="">
+              <div class="bording-pass-card">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="img/Nandos_Thumbnail.png" alt="Card image cap">
+                    <div class="card-body text-center">
+                      <h4 class="card-title">Nando’s Offer</h4>
+                      <a href="#" class="btn btn-primary">Know More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="img/logo_Aquasail.jpg" alt="Card image cap">
+                    <div class="card-body text-center">
+                      <h4 class="card-title">Aquasail</h4>
+                      <a href="#" class="btn btn-primary">Know More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="img/flimstrip-taj--Amritsar-banner-new_1.jpg" alt="Card image cap">
+                    <div class="card-body text-center">
+                      <h4 class="card-title">Taj Swarna, Amritsar: 25%</h4>
+                      <a href="#" class="btn btn-primary">Know More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row pt-3">
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="img/thaispa-thumb.jpg" alt="Card image cap">
+                    <div class="card-body text-center">
+                      <h4 class="card-title">The Thai Spa- Get flat ₹500</h4>
+                      <a href="#" class="btn btn-primary">Know More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="img/The_Lalit_290X290.jpg" alt="Card image cap">
+                    <div class="card-body text-center">
+                      <h4 class="card-title">The Lalit Offer</h4>
+                      <a href="#" class="btn btn-primary">Know More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card">
+                    <img class="card-img-top" src="img/nykaa_flimstrip.jpg" alt="Card image cap">
+                    <div class="card-body text-center">
+                      <h4 class="card-title">Nando’s Offer</h4>
+                      <a href="#" class="btn btn-primary">Know More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="nav-home2" role="tabpanel" aria-labelledby="nav-profile-tab">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/Thumbnail_Check_In.jpg" alt="Card image cap">
+                    <div class="card-body text-center">
+                      <h4 class="card-title">Earn 100 bonus CV Points on Website and Mobile app Check-in</h4>
+                      <a href="#" class="btn btn-primary">Know More</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/Thumbnail_Booking.jpg" alt="Card image cap">
+                    <div class="card-body text-center">
+                      <h4 class="card-title">Earn 2x CV Points and free milestone tickets/upgrades on website and Vistara.</h4>
+                      <a href="#" class="btn btn-primary">Know More</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/Thumbnail_Enrolment.jpg" alt="Card image cap">
+                    <div class="card-body text-center">
+                      <h4 class="card-title">Enrol as a Club Vistara Member &amp; Earn 500 points</h4>
+                      <a href="#" class="btn btn-primary">Know More</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="nav-home3" role="tabpanel" aria-labelledby="nav-profile-tab">  
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/thumbnail-economist-logo.png" alt="Card image cap">
+                    <div class="card-body text-center">
+                      <h4 class="card-title">Earn upto 15,000 CV points on subscribing to The Economist</h4>
+                      <a href="#" class="btn btn-primary">Know More</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/thumbnail-deals-axis-bank.jpg" alt="Card image cap">
+                    <div class="card-body text-center">
+                      <h4 class="card-title">Presenting Axis Bank Vistara Credit Cards</h4>
+                      <a href="#" class="btn btn-primary">Know More</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/thumbnail-axis-bank-conversion-v2.png" alt="Card image cap">
+                    <div class="card-body text-center">
+                      <h4 class="card-title">Convert your Axis eDGE Reward points into CV Pointsr</h4>
+                      <a href="#" class="btn btn-primary">Know More</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<footer  class="page-footer center-on-small-only stylish-color-dark">
+
+    <!--Footer Links-->
+    <div class="container-fluid">
+        <div class="row">
+
+            <!--First column-->
+            <div class="col-md-3 col-sm-12">
+                <h5 class="title mb-4 mt-3 font-bolder">Help</h5>
+                <ul>
+                    <li><a href="#!">Contact Delta</a></li>
+                    <li><a href="#!">Receipts and refunds</a></li>
+                    <li><a href="#!">FAQs</a></li>
+                    <li><a href="#!">Baggage and optional service fees</a></li>
+                    <li><a href="#!">Customer service and contingency plans</a></li>
+                    <li><a href="#!">Conditions of carriage and tariffs</a></li>
+                </ul>
+            </div>
+            <!--/.First column-->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!--Second column-->
+            <div class="col-md-3 col-sm-12">
+                <h5 class="title mb-4 mt-3 font-bolder">About Delta</h5>
+                <ul>
+                    <li><a href="#!">About us</a></li>
+                    <li><a href="#!">Careers</a></li>
+                    <li><a href="#!">Newsroom</a></li>
+                    <li><a href="#!">Legal, privacy, copyright</a></li>
+                    <li><a href="#!">Web accessibility</a></li>
+                </ul>
+            </div>
+            <!--/.Second column-->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!--Third column-->
+            <div class="col-md-3 col-sm-12">
+                <h5 class="title mb-4 mt-3 font-bolder">Extras</h5>
+                <ul>
+                    <li><a href="#!">Business programs</a></li>
+                    <li><a href="#!">Gift cards</a></li>
+                    <li><a href="#!">Delta Airlines credit card</a></li>
+                    <li><a href="#!">Trip insurance</a></li>
+                </ul>
+            </div>
+            <!--/.Third column-->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!--Fourth column-->
+            <div class="col-md-3 col-sm-12">
+                <h5 class="title mb-4 mt-3 font-bold "><img src="img/textimage_0.img.20170925T2152357240400.png"></h5>
+                <p>Earn <del>30,000</del>   70,000 <span class="text-danger font-weight-bold">Bonus Miles<span></p>
+            </div>
+            <!--/.Fourth column-->
+        </div>
+    </div>
+    <!--/.Footer Links-->
+
+    <hr>
+
+    <!--Social buttons-->
+    <div class="social-section text-center pb-4 ">
+        <ul class="d-flex justify-content-center">
+
+            <li><a class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"> </i></a></li>
+            <li><a class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"> </i></a></li>
+            <li><a class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"> </i></a></li>
+            <li><a class="btn-floating btn-sm btn-li"><i class="fa fa-linkedin"> </i></a></li>
+            <li><a class="btn-floating btn-sm btn-dribbble"><i class="fa fa-dribbble"> </i></a></li>
+
+        </ul>
+    </div>
+    <!--/.Social buttons-->
+
+    <!--Copyright-->
+    <div class="footer-copyright">
+        <div class="container-fluid text-center">
+            © 2017 Copyright: <a href="https://www.MDBootstrap.com">Team Project</a>
+
+        </div>
+    </div>
+    <!--/.Copyright-->
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

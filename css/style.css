@@ -1,0 +1,359 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  overflow-x: hidden; 
+}
+
+.parallax-window {
+    min-height: 600px;
+    background: transparent;
+   
+}
+
+#parallax-1{
+    min-height: 350px;
+    background: transparent;
+   
+}
+#parallax-1 h3{
+  padding-top: 20px;
+  font-size:30px; 
+}
+#parallax-1 span{
+  padding-top: 20px;
+  font-size: 50px;
+  font-weight: bolder;
+  color: #e01933; 
+  font-family: 'Alfa Slab One', cursive;
+  display: block;
+  /*text-shadow: 2px 2px #4285F4 ;*/
+}
+
+#parallax-2{
+    min-height: 500px;
+    background:transparent;
+   
+}
+#parallax-2 h3{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size:30px; 
+  color: white;
+  background-color:black;
+  opacity: 0.8;
+  font-weight: bolder;
+
+}
+#parallax-2 span{
+  padding-top: 20px;
+  
+  font-weight: bolder;
+  color: #e01933; 
+  font-family: 'Alfa Slab One', cursive;
+  display: block;
+  /*text-shadow: 2px 2px #4285F4 ;*/
+}
+#parallax-3{
+    position: relative;
+    min-height: 450px;
+    background: transparent;
+
+  
+}
+
+#parallax-3 h3,#parallax-3_btn{
+  position: absolute;
+}
+
+#parallax-3 h3{
+  transform: translate(10%,10%);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size:30px; 
+  color: black;
+  background-color:white;
+  opacity: 0.8;
+  font-weight: bolder;
+
+}
+#parallax-3_btn{
+    transform: translate(-120%,240%);
+}
+
+#slider{
+  position: relative;
+}
+#form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%,-50%);
+    background: transparent;
+
+    /*width:overflow hidden;*/
+    z-index: 100;
+    
+}
+
+#form .color{
+  background-color:#ddd;
+  padding: 15px; 
+}
+#form .form-head{
+  width: 85%;
+  transform: translate(10%,50%);
+   box-shadow: 2px 2px 5px #888888;
+}
+#form .title{
+   padding: 15px;
+   transform: translate(40%,0);
+}
+#form .book{
+  padding:20px;
+  width:200px;
+  transform: translate(20%,0);
+}
+#returndate:disabled{
+  background-color: lightgray;
+}
+#form .find_flight_btn a{
+  color:#fff;
+}
+
+
+
+
+#booking{
+  
+  padding-bottom:50px; 
+}
+#booking .flight-booking .flight-booking-txt h1 {
+  font-size: 1.8rem;
+  color: #e01933;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+#booking .flight-booking .flight-booking-txt p{
+  font-size: 1.2rem;
+  padding-bottom: 20px;
+}
+#booking .flight-booking .flight-booking-txt p span {
+  font-weight: bold;
+}
+#booking .flight-booking .form h1 {
+  border-left: 1px solid #fff;
+  padding: 5px 0;
+  color: #ffffff;
+  font-size: 1.5rem;
+  background-color: #142d4b;
+}
+#booking .flight-booking .form{
+  /*background-color: #dadcdf;*/
+}
+#booking .flight-booking .btn {
+  background-color:  #142d4b;
+}
+#booking .flight-booking a{
+  text-decoration: none;
+}
+
+#booking .flight-booking select {
+  height: 38px;
+}
+/*booking style end here*/
+@media (min-width: 1200px) {
+  #booking {
+    display: none;
+  }
+}
+#side-fix {
+  top: 300px;
+  position: fixed;
+  /*display: flex;*/
+  /*justify-content: space-between;*/
+  z-index: 5000;
+}
+
+#info{
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+  
+}
+#owl-demo figure{
+  
+  height:500px;
+  padding: 15px;
+  border:1px solid  #4285F4;
+  box-shadow: 5px 8px 15px #888888;
+}
+
+
+#deals{
+   padding-top: 100px;
+   padding-bottom:  100px;
+}
+#deals li a{
+  background-color: #e01933;
+  border:2px solid #e01933 ;
+  opacity: 0.8;
+  color: white;
+}
+#deals .nav-pills .active{
+   background-color:white;
+   color: #e01933;
+}
+
+#gallery{
+  padding-top: 100px;
+   padding-bottom:  100px;
+   background-color: #2E2E2E;
+   position: relative;
+}
+#gallery .element-item img{
+  border:3px solid white;
+}
+#gallery .button-group button{
+   background-color: #e01933;
+  opacity: 0.8;
+  color: white;
+}
+
+#news{
+  
+  overflow: hidden;
+  height:297px;
+
+}
+
+#our_team{
+  height: overflow hidden;
+ 
+}
+
+
+#counter {
+  background-image: url(../img/10985187_10153455628252686_4053670833010595472_n.jpg);
+  position: relative;
+
+}
+
+#counter:before{
+  content:"";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+#counter h1{
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 20px;
+ 
+}
+
+
+
+
+.social-section i {
+  padding: 10px;
+  height: 45px;
+  width: 45px;
+  font-size: 25px;
+  /*background-color: red;*/
+  border-radius: 50%;
+}
+
+.social-section .fa-facebook {
+  background-color: #395a91;
+}
+.social-section .fa-twitter {
+  background-color: #50acff;
+}
+.social-section .fa-google-plus {
+  background-color: #dc4e38;
+}
+.social-section .fa-linkedin {
+  background-color: #0085cd;
+}
+.social-section .fa-dribbble {
+  background-color: #ed4c8f;
+}
+footer .social-section .fa:hover {
+  color: #ff0000;
+}
+
+@media all and (max-width: 1200px) {
+   #form{display:none;}
+}
+
+
+
+
+/*top scroll*/
+
+
+
+
+
+
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff0000;
+    /*background: rgb(0, 0, 0);*/
+    /*background: rgba(0, 0, 0, 0.7);*/
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    /*background: rgba(0, 0, 0, 0.9);*/
+    background-color: #003670;
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}

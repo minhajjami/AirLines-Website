@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- font-awesome css -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="../css/navigation.css">
+    <!-- custom css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- parallax -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+
+  </head>
+  <body>
+    
+
+
+
+   <header>
+     <nav class="navbar navbar-expand-lg navbar-light logo-nav">
+      <div class="container">
+        <a class="navbar-brand px-5" href="../index.html" style="color: white;font-weight: bolder;"><img src="img/loog42.png">Delta Air</a>
+  
+               <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarText">
+                 <span class="navbar-text">
+                   <a href="#"><i class="fa fa-phone" aria-hidden="true"></i>+91 9289228888 or +91 9958962222 </a>
+                 </span>
+            </div>
+        </div>
+    </nav>
+
+
+      <nav id="navbar-example" class="navbar navbar-expand-lg main-nav">
+        <div class="container">
+          <a class="navbar-brand" href="#"></a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+                <i class="fa fa-bars fa" aria-hidden="true"></i>
+            </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav main mx-auto">
+              <li class="nav-item">
+                <a class="nav-link px-5" href="../index.html">Home</a>
+              </li>
+
+              <li class="nav-item active">
+                <a class="nav-link px-5 text-white" href="Booking.html">Plan &amp; Book</a>
+              </li>
+
+
+             <li class="nav-item">
+                <a class="nav-link px-5" href="check-in.html">Travel Info</a>
+              </li>
+    
+
+              <li class="nav-item">
+                <a class="nav-link px-5" href="deals-offer-club-deals.html">Deals &amp; Offers</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link px-5" href="vista-experience.html">Experience</a>
+              </li>
+               
+            </ul>
+
+                    <ul class="navbar-nav nav-flex-icons">
+                <li class="nav-item">
+                    <a class="nav-link" href="#modalLogin" data-toggle="modal"><i class="fa fa-lock px-2" aria-hidden="true"></i>Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#modalRegister" data-toggle="modal"><i class="fa fa-user px-2" aria-hidden="true"></i>Sign Up</a>
+                </li> 
+               
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+  </section>
+    </header>
+
+   <!--Modal: Login Form-->
+    <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog cascading-modal" role="document">
+            <!--Content-->
+            <div class="modal-content">
+    
+                <!--Header-->
+                <div class="modal-header light-blue darken-3 white-text">
+                    <h4 class="title"><i class="fa fa-user"></i> Log in</h4>
+                    <button type="button" class="close waves-effect waves-light" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!--Body-->
+                <div class="modal-body">
+                    <div class="md-form form-sm">
+                        <i class="fa fa-envelope prefix"></i>
+                        <input type="text" id="form30" class="form-control">
+                        <label for="form30">Your email</label>
+                    </div>
+    
+                    <div class="md-form form-sm">
+                        <i class="fa fa-lock prefix"></i>
+                        <input type="password" id="form31" class="form-control">
+                        <label for="form31">Your password</label>
+                    </div>
+    
+                    <div class="text-center mt-2">
+                        <button class="btn btn-info">Log in <i class="fa fa-sign-in ml-1"></i></button>
+                    </div>
+    
+                </div>
+                <!--Footer-->
+                <div class="modal-footer">
+                    <div class="options text-center text-md-right mt-1">
+                        <p>Not a member? <a href="#">Sign Up</a></p>
+                        <p>Forgot <a href="#">Password?</a></p>
+                    </div>
+                    <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            <!--/.Content-->
+        </div>
+    </div>
+    <!--Modal: Login Form-->
+    
+                                                
+
+    <!--Modal: Register Form-->
+    <div class="modal fade" id="modalRegister" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog cascading-modal" role="document">
+            <!--Content-->
+            <div class="modal-content">
+    
+                <!--Header-->
+                <div class="modal-header light-blue darken-3 white-text">
+                    <h4 class="title"><i class="fa fa-user-plus"></i> Register</h4>
+                    <button type="button" class="close waves-effect waves-light" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!--Body-->
+                <div class="modal-body">
+                    <div class="md-form form-sm">
+                        <i class="fa fa-envelope prefix"></i>
+                        <input type="text" id="form32" class="form-control">
+                        <label for="form32">Your email</label>
+                    </div>
+    
+                    <div class="md-form form-sm">
+                        <i class="fa fa-lock prefix"></i>
+                        <input type="password" id="form33" class="form-control">
+                        <label for="form33">Your password</label>
+                    </div>
+    
+                    <div class="md-form form-sm">
+                        <i class="fa fa-lock prefix"></i>
+                        <input type="password" id="form34" class="form-control">
+                        <label for="form34">Repeat password</label>
+                    </div>
+    
+                    <div class="text-center mt-2">
+                        <button class="btn btn-info">Sign up <i class="fa fa-sign-in ml-1"></i></button>
+                    </div>
+    
+                </div>
+                <!--Footer-->
+                <div class="modal-footer">
+                    <div class="options text-center text-md-right mt-1">
+                        <p>Already have an account? <a href="#modalLogin">Log In</a></p>
+                    </div>
+                    <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            <!--/.Content-->
+        </div>
+    </div>
+
+     
+
+  	<!-- navigation section end here -->
+
+
+
+
+
+
+
+  	<section id="booking">
+     <img src="img/Travel-Booking-Portal-Features.jpg" class="d-block w-100">
+  		<div class="container pt-4">
+  			<div class="flight-booking ">
+  				<div class="flight-booking-txt">
+  					<h1>Flight Booking</h1>
+  					<p>Welcome to Delta! Let us assure you that from here on your travel experience is going to be seamless and pleasant. With Vistara, you can <span>book low fare flight tickets</span> and afford yourselves with great-air fare deals on <span>domestic flights.</span>Book flight tickets online following simple and easy steps and rest assured knowing that you are going to be pampered with world class in-flight service and hospitality.</p>
+  					<p>Enter your travel details and we will fetch the best suited-flights for you. If you are booking tickets for a group of more than 9 passengers, or may require any special assistance during your flight, we request you to call up our customer service centre at +8801718122820 or +8801517034631 for detailed information.</p>
+  				</div>
+  				<div class="form">
+  					<div class="row">
+  						<div class="col-md-12 col-sm-12">
+  							<div class="row">
+  								<div class="col-sm-6 text-center p-0">
+  									<h1 class="p-3">Book Flight</h1>
+  								</div>
+  								<div class="col-sm-6 text-center p-0">
+  									<h1 class="p-3">Redeem Flights</h1>
+  								</div>
+  							</div>
+  						</div>
+  					</div>
+  					<div class="row">
+  						<div class="col-md-12">
+  							<form>
+                  <div class="d-inline-block p-3">             
+            <div class="form-check">
+                      <label class="form-check-label black-text">
+                           <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" onclick="round()" checked>
+                                      Round
+                       </label>
+               </div>
+            </div>
+            <div class="d-inline-block p-3">   
+                <div class="form-check">
+                     <label class="form-check-label black-text">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" onclick="oneway()">
+                                One Way
+                              </label>
+                            </div> 
+           </div>
+  								<div class="row my-3">
+  									<div class="col-md-6 col-sm-12">
+  										<div class="input-group">
+										  <span class="input-group-addon" id="basic-addon1" ><i class="fa fa-plane" aria-hidden="true"></i></span>
+										  <input type="text" class="form-control" placeholder="Orgin" aria-label="orgin" aria-describedby="basic-addon1">
+										</div>
+  									</div>
+  									<div class="col-md-6 col-sm-12">
+	  									<div class="input-group">
+										  <span class="input-group-addon" id="basic-addon1" ><i class="fa fa-plane" aria-hidden="true"></i></span>
+										  <input type="text" class="form-control" placeholder="Destination" aria-label="destination" aria-describedby="basic-addon1">
+										</div>
+  									</div>
+  								</div>
+  								<div class="row my-3">
+  									<div class="col-md-6 col-sm-12">
+  										<div class="input-group">
+										  <span class="input-group-addon" id="basic-addon1" ><i class="fa fa-calendar" aria-hidden="true"></i></span>
+										  <input type="date" class="form-control" placeholder="Departure Date" aria-label="departure-date" aria-describedby="basic-addon1">
+										</div>
+  									</div>
+  									<div class="col-md-6 col-sm-12">
+	  									<div class="input-group">
+										  <span class="input-group-addon" id="basic-addon1" ><i class="fa fa-calendar" aria-hidden="true"></i></span>
+										  <input type="date" class="form-control" placeholder="Return Date" aria-label="return-date" aria-describedby="basic-addon1">
+										</div>
+  									</div>
+  								</div>
+  								<div class="flexible-date">
+  									<input type="checkbox" id="flexible-date" name="">
+  									<label for="flexible-date">Flexible Travel Dates</label>
+  								</div>
+
+
+  							</form>
+  						</div>
+  						<div class="col-md-12 col-sm-12">
+  							<form>
+                    <div class="row">
+                      <div class="col-md-4">
+                        <select class="w-100 rounded">
+                          <option value="0-adult">0 Adult</option>
+                          <option value="1-adult">1 Adult</option>
+                          <option value="2-adult">2 Adult</option>
+                          <option value="3-adult">3 Adult</option>
+                          <option value="4-adult">4 Adult</option>
+                          <option value="5-adult">5 Adult</option>
+                          <option value="6-adult">6 Adult</option>
+                          <option value="7-adult">7 Adult</option>
+                          <option value="8-adult">8 Adult</option>
+                          <option value="9-adult">9 Adult</option>
+                          <option value="10-adult">10 Adult</option>
+                        </select>
+                      </div>
+                      <div class="col-md-4">
+                        <select class="w-100 rounded">
+                          <option value="0-child">0 Child</option>
+                          <option value="1-child">1 Child</option>
+                          <option value="2-child">2 Child</option>
+                          <option value="3-child">3 Child</option>
+                          <option value="4-child">4 Child</option>
+                          <option value="5-child">5 Child</option>
+                          <option value="6-child">6 Child</option>
+                          <option value="7-child">7 Child</option>
+                          <option value="8-child">8 Child</option>
+                          <option value="9-child">9 Child</option>
+                          <option value="10-child">10 Child</option>
+                        </select>
+                      </div>
+                      <div class="col-md-4">
+                        <select class="w-100 rounded">
+                          <option value="0-infant">0 Infant</option>
+                          <option value="1-infant">1 Infant</option>
+                          <option value="2-infant">2 Infant</option>
+                          <option value="3-infant">3 Infant</option>
+                          <option value="4-infant">4 Infant</option>
+                          <option value="5-infant">5 Infant</option>
+                          <option value="6-infant">6 Infant</option>
+                          <option value="7-infant">7 Infant</option>
+                          <option value="8-infant">8 Infant</option>
+                          <option value="9-infant">9 Infant</option>
+                          <option value="10-infant">10 Infant</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6 my-3">
+                        <div class="input-group">
+                        <span class="input-group-addon" id="basic-addon1">Promo Code</span>
+                        <input type="text" class="form-control" placeholder="Promo Code" aria-label="Promo Code" aria-describedby="basic-addon1">
+                      </div>
+                      </div>
+                      <div class="col-md-6 my-3">
+                        <select class="w-100 rounded">
+                          <option value="ecomomy">Enomomy</option>
+                          <option value="primium economy">Primium Economy</option>
+                          <option value="Business">Business</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="check">
+                      <input type="checkbox" id="bd-freedomfighter" name="">
+                      <label for="bd-freedomfighter">Freedom Fighter</label><br>
+
+                      <input type="checkbox" id="bd-armed" name="">
+                      <label for="bd-armed">Bangladeshi Armed Forces Personnel</label><br>
+
+                      <input type="checkbox" id="f-m" name="">
+                      <label for="f-m">Friends &amp; Family</label><br>
+
+                      <input type="checkbox" id="student" name="">
+                      <label for="student">Student</label><br>
+
+                      <input type="checkbox" id="senior-citizen" name="">
+                      <label for="senior-citizen"> Senior Citizen</label><br>
+                    </div>
+                    <div class="text-center pt-3 pb-3">
+                      <a href="Flight-Schedules.html"><button type="button" class="btn btn-primary  btn-lg  btn-lg btn-block">Search Flight</button></a>
+                    </div>       
+                </form>
+  						</div>
+  					</div>
+  			</div>
+  		</div>
+     </div> 
+  	</section>
+
+
+
+<div class="parallax-window" data-parallax="scroll" data-image-src="img/para.jpg" alt="groupbooking"></div>
+
+
+
+<section id="group-booking">
+      <div class="container">
+        <div class="group-booking-txt my-5">
+          <h1>Group Booking</h1>
+          <p>Travelling in a group is always fun. Now you can expedite the <a href="group_booking.html">flight booking </a>process and make it an equally worry-free experience with our vistara Group Bookings. Whether your group (10 or more passengers) is travelling for pleasure, a business conference or any other occasion, we will make sure you make the most of your travels with the special benefits that come along as part of vistara Group Bookings.</p>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+            <div class="media">
+              <i class="fa fa-globe fa-4x mr-5 mb-4" aria-hidden="true"></i>
+              <div class="media-body">
+                <h5 class="mt-0">Media heading</h5>
+                Make request for flight schedules, quotes and manage your bookings.
+              </div>
+            </div>
+            <div class="media">
+              <i class="fa fa-fast-forward fa-4x mr-5 mb-4" aria-hidden="true"></i>
+              <div class="media-body">
+                <h5 class="mt-0">More flexibility</h5>
+                Flexibility to add names upto 7 days before the departure.
+              </div>
+            </div>
+            <div class="media">
+              <i class="fa fa-money fa-4x mr-5 mb-4" aria-hidden="true"></i>
+              <div class="media-body">
+                <h5 class="mt-0">More savings</h5>
+                Customized fare quote resulting into savings in comparison to the available fares.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="group-booking-login-form">
+              <h2>Group Booking Log-In</h2>
+              <form class="px-3">
+                  <!--Body-->
+                <div class="modal-body">
+                    <div class="md-form form-sm">
+                        <i class="fa fa-envelope prefix"></i>
+                        <input type="text" id="form30" class="form-control">
+                        <label for="form30">Your email</label>
+                    </div>
+    
+                    <div class="md-form form-sm">
+                        <i class="fa fa-lock prefix"></i>
+                        <input type="password" id="form31" class="form-control">
+                        <label for="form31">Your password</label>
+                    </div>
+    
+                    <div class="text-center mt-2">
+                        <button class="btn btn-danger">Log in <i class="fa fa-sign-in ml-1"></i></button>
+                    </div>
+    
+              </form>
+            </div>
+          </div>
+        </div>
+        <p class="pt-4 pb-5 px-3">The next time you travel together in a large group of 10 or more passengers, opt for Vistara Group Bookings and enjoy the new feeling of a worry-free booking and flying experience.</p>
+      </div>
+    </section>
+
+
+
+<footer  class="page-footer center-on-small-only stylish-color-dark">
+
+    <!--Footer Links-->
+    <div class="container-fluid">
+        <div class="row">
+
+            <!--First column-->
+            <div class="col-md-3 col-sm-12">
+                <h5 class="title mb-4 mt-3 font-bolder">Help</h5>
+                <ul>
+                    <li><a href="#!">Contact Delta</a></li>
+                    <li><a href="#!">Receipts and refunds</a></li>
+                    <li><a href="#!">FAQs</a></li>
+                    <li><a href="#!">Baggage and optional service fees</a></li>
+                    <li><a href="#!">Customer service and contingency plans</a></li>
+                    <li><a href="#!">Conditions of carriage and tariffs</a></li>
+                </ul>
+            </div>
+            <!--/.First column-->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!--Second column-->
+            <div class="col-md-3 col-sm-12">
+                <h5 class="title mb-4 mt-3 font-bolder">About Delta</h5>
+                <ul>
+                    <li><a href="#!">About us</a></li>
+                    <li><a href="#!">Careers</a></li>
+                    <li><a href="#!">Newsroom</a></li>
+                    <li><a href="#!">Legal, privacy, copyright</a></li>
+                    <li><a href="#!">Web accessibility</a></li>
+                </ul>
+            </div>
+            <!--/.Second column-->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!--Third column-->
+            <div class="col-md-3 col-sm-12">
+                <h5 class="title mb-4 mt-3 font-bolder">Extras</h5>
+                <ul>
+                    <li><a href="#!">Business programs</a></li>
+                    <li><a href="#!">Gift cards</a></li>
+                    <li><a href="#!">Delta Airlines credit card</a></li>
+                    <li><a href="#!">Trip insurance</a></li>
+                </ul>
+            </div>
+            <!--/.Third column-->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!--Fourth column-->
+            <div class="col-md-3 col-sm-12">
+                <h5 class="title mb-4 mt-3 font-bold "><img src="img/textimage_0.img.20170925T2152357240400.png"></h5>
+                <p>Earn <del>30,000</del>   70,000 <span class="text-danger font-weight-bold">Bonus Miles<span></p>
+            </div>
+            <!--/.Fourth column-->
+        </div>
+    </div>
+    <!--/.Footer Links-->
+
+    <hr>
+
+    <!--Social buttons-->
+    <div class="social-section text-center pb-4 ">
+        <ul class="d-flex justify-content-center">
+
+            <li><a href="#" class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"> </i></a></li>
+            <li><a href="#" class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"> </i></a></li>
+            <li><a href="#" class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"> </i></a></li>
+            <li><a href="#" class="btn-floating btn-sm btn-li"><i class="fa fa-linkedin"> </i></a></li>
+            <li><a href="#" class="btn-floating btn-sm btn-dribbble"><i class="fa fa-dribbble"> </i></a></li>
+
+        </ul>
+    </div>
+    <!--/.Social buttons-->
+
+    <!--Copyright-->
+    <div class="footer-copyright">
+        <div class="container-fluid text-center">
+            © 2017 Copyright: <a href="https://www.MDBootstrap.com">Team Project</a>
+
+        </div>
+    </div>
+    <!--/.Copyright-->
+
+</footer>
+
+    <!-- Return to Top -->
+    <a href="javascript:" id="return-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+  </body>
+</html>

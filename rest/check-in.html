@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- font-awesome css -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="../css/navigation.css">
+    <!-- custom css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  </head>
+  <body>
+     <header>
+     <nav class="navbar navbar-expand-lg navbar-light logo-nav">
+      <div class="container">
+        <a class="navbar-brand px-5" href="../index.html" style="color: white;font-weight: bolder;"><img src="img/loog42.png">Delta Air</a>
+  
+               <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarText">
+                 <span class="navbar-text">
+                   <a href="#"><i class="fa fa-phone" aria-hidden="true"></i>+91 9289228888 or +91 9958962222 </a>
+                 </span>
+            </div>
+        </div>
+    </nav>
+
+
+      <nav id="navbar-example" class="navbar navbar-expand-lg main-nav">
+        <div class="container">
+          <a class="navbar-brand" href="#"></a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+                <i class="fa fa-bars fa" aria-hidden="true"></i>
+            </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav main mx-auto">
+              <li class="nav-item">
+                <a class="nav-link px-5" href="../index.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link px-5" href="Booking.html">Plan &amp; Book</a>
+              </li>
+
+
+             <li class="nav-item active">
+                <a class="nav-link px-5 text-white" href="check-in.html">Travel Info</a>
+              </li>
+    
+
+              <li class="nav-item">
+                <a class="nav-link px-5" href="deals-offer-club-deals.html">Deals &amp; Offers</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link px-5" href="vista-experience.html">Experience</a>
+              </li>
+               
+            </ul>
+
+                    <ul class="navbar-nav nav-flex-icons">
+                <li class="nav-item">
+                    <a class="nav-link" href="#modalLogin" data-toggle="modal"><i class="fa fa-lock px-2" aria-hidden="true"></i>Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#modalRegister" data-toggle="modal"><i class="fa fa-user px-2" aria-hidden="true"></i>Sign Up</a>
+                </li> 
+               
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </section>
+    </header>
+
+
+   <!--Modal: Login Form-->
+    <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog cascading-modal" role="document">
+            <!--Content-->
+            <div class="modal-content">
+    
+                <!--Header-->
+                <div class="modal-header light-blue darken-3 white-text">
+                    <h4 class="title"><i class="fa fa-user"></i> Log in</h4>
+                    <button type="button" class="close waves-effect waves-light" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!--Body-->
+                <div class="modal-body">
+                    <div class="md-form form-sm">
+                        <i class="fa fa-envelope prefix"></i>
+                        <input type="text" id="form30" class="form-control">
+                        <label for="form30">Your email</label>
+                    </div>
+    
+                    <div class="md-form form-sm">
+                        <i class="fa fa-lock prefix"></i>
+                        <input type="password" id="form31" class="form-control">
+                        <label for="form31">Your password</label>
+                    </div>
+    
+                    <div class="text-center mt-2">
+                        <button class="btn btn-info">Log in <i class="fa fa-sign-in ml-1"></i></button>
+                    </div>
+    
+                </div>
+                <!--Footer-->
+                <div class="modal-footer">
+                    <div class="options text-center text-md-right mt-1">
+                        <p>Not a member? <a href="#">Sign Up</a></p>
+                        <p>Forgot <a href="#">Password?</a></p>
+                    </div>
+                    <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            <!--/.Content-->
+        </div>
+    </div>
+    <!--Modal: Login Form-->
+    
+                                                
+
+    <!--Modal: Register Form-->
+    <div class="modal fade" id="modalRegister" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog cascading-modal" role="document">
+            <!--Content-->
+            <div class="modal-content">
+    
+                <!--Header-->
+                <div class="modal-header light-blue darken-3 white-text">
+                    <h4 class="title"><i class="fa fa-user-plus"></i> Register</h4>
+                    <button type="button" class="close waves-effect waves-light" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!--Body-->
+                <div class="modal-body">
+                    <div class="md-form form-sm">
+                        <i class="fa fa-envelope prefix"></i>
+                        <input type="text" id="form32" class="form-control">
+                        <label for="form32">Your email</label>
+                    </div>
+    
+                    <div class="md-form form-sm">
+                        <i class="fa fa-lock prefix"></i>
+                        <input type="password" id="form33" class="form-control">
+                        <label for="form33">Your password</label>
+                    </div>
+    
+                    <div class="md-form form-sm">
+                        <i class="fa fa-lock prefix"></i>
+                        <input type="password" id="form34" class="form-control">
+                        <label for="form34">Repeat password</label>
+                    </div>
+    
+                    <div class="text-center mt-2">
+                        <button class="btn btn-info">Sign up <i class="fa fa-sign-in ml-1"></i></button>
+                    </div>
+    
+                </div>
+                <!--Footer-->
+                <div class="modal-footer">
+                    <div class="options text-center text-md-right mt-1">
+                        <p>Already have an account? <a href="#modalLogin">Log In</a></p>
+                    </div>
+                    <button type="button" class="btn btn-outline-info waves-effect ml-auto" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            <!--/.Content-->
+        </div>
+    </div>
+
+
+
+    <section id="checkin">
+      <img src="img/bigbreaks-banners_1360_400_bbhdfc10.png" class="w-100 img-fluid">
+      <div class="container">
+        <h2 class="mt-4 text-danger font-weight-bold pt-3 pb-3">Check In</h2>
+        <p>A host of special benefits await you, when you fly with us!  Exclusive offers and special privileges on your Boarding Pass, it just does not get better. Simply present your Vistara boarding pass within 1 week of your travel at the participating outlets, and get surprised with our discounts for you. Incorporating hotel accommodation, shopping, dining and so much more, we make sure all your needs are taken care of.</p>
+
+        <nav class="nav nav-tabs d-flex justify-content-center pt-3" id="myTab" role="tablist">
+          <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home1" role="tab" aria-controls="nav-home" aria-expanded="true"><span class="mr-3"><i class="fa fa-user" aria-hidden="true"></i></span>CHECK IN</a>
+          <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-home2" role="tab" aria-controls="nav-profile"><span class="mr-3"><i class="fa fa-id-card-o" aria-hidden="true"></i></span>PREPARING TO FLY</a>
+          <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-home3" role="tab" aria-controls="nav-profile"><span class="mr-3"><i class="fa fa-life-ring" aria-hidden="true"></i></span>SPECIAL ASSISTANCE</a>
+          <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-home4" role="tab" aria-controls="nav-profile"><span class="mr-3"><i class="fa fa-suitcase" aria-hidden="true"></i></span>BAGGAGE CONDITIONS</a>
+        </nav>
+        <div class="tab-content mt-4" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-home1" role="tabpanel" aria-labelledby="nav-home-tab">
+            <div>
+              <img src="img/checkin1.jpg" class="img-fluid">
+            </div>
+            <div class="">
+              <h4 class="mt-4 text-danger font-weight-bold pt-4">Check In</h4>
+              <p class="pb-3">We endeavour to make your journey hassle-free, starting with numerous options for check-in. However, regardless of how you check-in, please note that check-in will close 45 minutes prior to scheduled departure time. Customers are also expected to be present at the boarding gate at least 25 minutes prior to scheduled departure time.</p>
+              <h5 class="mt-4 text-danger font-weight-bold ">Web Check-in Terms and Conditions</h5>
+              <ul class="px-5">
+                <li>Customers may check-in on our website www.airvistara.com or using our mobile app and they will receive e-Boarding Pass (Web and Mobile Boarding Pass) on their preferred email address</li>
+                <li>Please note that web check-in will close 60 minutes prior to scheduled departure time. Customers are also expected to be present at the boarding gate at least 15 minutes prior to the departure time.</li>
+                <li>Please read the notes printed on your boarding pass carefully.</li>
+                <li>Vistara reserves the right to change the seats for the customers (checked-in using Web Check-in) to occupy Emergency exit seats in order to comply with safety regulations or a change in aircraft configuration.</li>
+                <li>It is mandatory to produce a Web Check-in boarding pass for security clearance as well as for boarding. A valid Photo identification (Official Government issued photo identification, Driving license, Election photo identification, Passport), Photo credit card may be requested any time at the airport.</li>
+                <p class="pt-4 text-danger font-weight-bold">Web Check-in is not available for:-</p>
+                <li>Customers with special service requests such as wheel chairs, extra seats, visual and hearing impairment, unaccompanied minors, stretcher etc.</li>
+                <li>Staff travel, Industry Discount tickets, upgrade vouchers and agent discount tickets.</li>
+                <li>International credit card bookings where card verification is required before boarding the flight. The intimation for the same is sent to the card holder’s email mentioned in the booking reference</li>
+                <li>Groups of more than nine people on the same booking</li>
+                <p class="pt-4 text-danger font-weight-bold">Important Points</p>
+                <li>Customers can make changes to the seat preference.</li>
+                <li>Customers cannot offload themselves through Web or Mobile check-in.</li>
+                <li>Customers having any check-in baggage, the bags will have to be presented along with a valid photo ID to our airport check-in counter before the counter closure time which is at least 45 minutes prior to departure of the flight.</li>
+                <li>If the customer is not able to reach the gate before the boarding gate closure (15 minutes prior), the customer will be offloaded from the flight and the ticket would be considered as No Show. The No Show policy as per the fare rules will applicable on the same.</li>
+                <li>If a customer is not carrying the printed copy of the boarding card, the same can be collected from the check-in counter by providing a valid photo ID, before 45minutes to departure of the flight.</li>
+                <a href="https://secure.royalcaribbean.com/content/en_US/pdf/before_you_begin.pdf">
+                <button type="button" class="btn btn-danger mt-4 mb-3">Start Web Checking</button>
+                 </a>
+
+                <p>Metro Check-in Terms and Conditions</p>
+                <li>Customers travelling on Vistara flights can check-in at the New Delhi metro station.</li>
+                <li>Check-in counters will be functional at 0600-2000 hours.</li>
+                <li>One dedicated check in counter will be available at the metro stations.</li>
+                <li>All baggage screening will be processed by CISF and strapped by DMRC.</li>
+                <li>Oversize and fragile baggage will be not be accepted at the metro check in stations.</li>
+                <li>Customers can enter the airport only 6 hours prior to departure.</li>
+                <li>Customers can collect their boarding pass and check-in their baggage at the metro station.</li>
+                <li>The journey from New Delhi metro station to the Airport station will take approximately 19 minutes.</li>
+                <li>The airport departure level is approximately a 10 minute walk from the airport metro station.</li>
+                <li>No payments can be made at Metro station.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="nav-home2" role="tabpanel" aria-labelledby="nav-profile-tab">
+            <div>
+              <img src="img/checkin2.jpg" class="img-fluid">
+            </div>
+            <div>
+              <h4 class="mt-4 text-danger font-weight-bold pt-4">Preparing To Fly</h4>
+              <p>At Vistara, your comfort and safety is our priority. You may be a seasoned traveller or flying for the first time but travelling by air entails a few preparations to ensure a pleasant experience.</p>
+              <p>You must ensure that you carry the necessary documents. These include tickets, valid photo IDs and other relevant IDs for concessionary fares you may be availing.</p>
+              <p>Check-in counters will open 2 hours 30 minutes before departure and close 45 minutes before scheduled departure time for all cabin classes. Give yourself enough time to reach the airport, keeping in mind traffic congestions, inclement weather and other delays.</p>
+              <p>Be certain that all your baggage has been tagged and identified. As some airports have more than one terminal, do ensure that you know which terminal you are departing from.</p>
+              <p>If you are nauseous due to in-flight turbulence, open the air vents, lie back with the seat in reclining position and relax. Air sickness bags are also provided in the seat pocket in front of you, should you require this.</p>
+              <p>You are advised to not experiment with self-medication. In case of early morning flights, avoid a late night with spicy food and alcoholic beverages the previous day.</p>
+              <p>Should you need any assistance onboard, please feel free to reach out to our cabin crew.</p>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="nav-home3" role="tabpanel" aria-labelledby="nav-profile-tab">
+            <div>
+              <img src="img/checkin3.jpg" class="img-fluid">
+            </div>
+            <div>
+              <h4 class="mt-4 text-danger font-weight-bold pt-4">Special Assistance</h4>
+              <p>We offer a number of services for customers who may be in need of special assistance. If you require special assistance, we recommend you keep in mind the following:</p>
+              <ul class="px-5">
+                <li>Make your reservation as early as possible to allow us to serve your needs better.</li>
+                <li>Any requirement for assistance/special needs must be conveyed at least 48 hours prior to travel by contacting our Customer Service Centre on +01718122820 or +01718122820. However, we advise you to convey this information as early as possible.</li>
+                <li>Let our ground staff and cabin crew know of your requests upon check-in or at the departure gate.</li>
+                <li>Check-in at least 2 hours prior to your scheduled departure to ensure a seamless flight experience.</li>
+                <li>All fit to fly certificates must be issued by treating physicians in accordance with specific cases.</li>
+                <li>Customers who are not self-reliant (capable of taking care of all their physical needs independently in-flight) are required to travel with a ticketed companion for assistance.</li>
+              </ul>
+              <p>If you are unable to find the relevant information below, please get in touch with our Customer Service Centre on +91 928 922 8888 or +91 995 896 2222 who will be more than happy to address your queries.</p>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="nav-home4" role="tabpanel" aria-labelledby="nav-profile-tab">
+            <div>
+              <img src="img/checkin4.jpg" class="img-fluid">
+            </div>
+            <div>
+              <h4 class="mt-4 text-danger font-weight-bold pt-4">Baggage Conditions</h4>
+              <p>Find out everything you must know about taking baggage with you when you fly with us. Improper carriage of baggage can cause a lot of inconvenience. Hence, make sure your baggage is properly packed and tagged. The following tips will be handy -</p>
+              <ul class="px-5">
+                <li>Make sure you are aware of your free checked baggage allowance. Any items over your allowance will be charged as excess baggage.</li>
+                <li>Don’t pack any valuables in your checked-in baggage.</li>
+                <li>Label your bags correctly with your name and address and remove tags and labels left over from previous flights.</li>
+                <li>Make sure you know your hand baggage allowance. and the latest restrictions on carriage of certain items in your hand baggage.</li>
+                <li>Make sure you take medication, important documents, valuable items and cash in your hand baggage.</li>
+                <li>Before checking-in please make sure you declare, if you are carrying any arms or explosive substances.</li>
+                <li>Battery cells in any electrical / electronic items are permissible now & will now not be removed at the security point. Loose battery cells / dry cells carried in the hand baggage are liable to be removed. Please carry such items in checked baggage only.</li>
+              </ul>
+              <p>If you are unable to find the relevant information below, please get in touch with our Customer Service Centre on +8801718122820 or +8801718122820 who will be more than happy to address your queries.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+
+
+  <!-- baggage condition end here -->
+<footer  class="page-footer center-on-small-only stylish-color-dark">
+
+    <!--Footer Links-->
+    <div class="container-fluid">
+        <div class="row">
+
+            <!--First column-->
+            <div class="col-md-3 col-sm-12">
+                <h5 class="title mb-4 mt-3 font-bolder">Help</h5>
+                <ul>
+                    <li><a href="#!">Contact Delta</a></li>
+                    <li><a href="#!">Receipts and refunds</a></li>
+                    <li><a href="#!">FAQs</a></li>
+                    <li><a href="#!">Baggage and optional service fees</a></li>
+                    <li><a href="#!">Customer service and contingency plans</a></li>
+                    <li><a href="#!">Conditions of carriage and tariffs</a></li>
+                </ul>
+            </div>
+            <!--/.First column-->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!--Second column-->
+            <div class="col-md-3 col-sm-12">
+                <h5 class="title mb-4 mt-3 font-bolder">About Delta</h5>
+                <ul>
+                    <li><a href="#!">About us</a></li>
+                    <li><a href="#!">Careers</a></li>
+                    <li><a href="#!">Newsroom</a></li>
+                    <li><a href="#!">Legal, privacy, copyright</a></li>
+                    <li><a href="#!">Web accessibility</a></li>
+                </ul>
+            </div>
+            <!--/.Second column-->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!--Third column-->
+            <div class="col-md-3 col-sm-12">
+                <h5 class="title mb-4 mt-3 font-bolder">Extras</h5>
+                <ul>
+                    <li><a href="#!">Business programs</a></li>
+                    <li><a href="#!">Gift cards</a></li>
+                    <li><a href="#!">Delta Airlines credit card</a></li>
+                    <li><a href="#!">Trip insurance</a></li>
+                </ul>
+            </div>
+            <!--/.Third column-->
+
+            <hr class="clearfix w-100 d-md-none">
+
+            <!--Fourth column-->
+            <div class="col-md-3 col-sm-12">
+                <h5 class="title mb-4 mt-3 font-bold "><img src="img/textimage_0.img.20170925T2152357240400.png"></h5>
+                <p>Earn <del>30,000</del>   70,000 <span class="text-danger font-weight-bold">Bonus Miles<span></p>
+            </div>
+            <!--/.Fourth column-->
+        </div>
+    </div>
+    <!--/.Footer Links-->
+
+    <hr>
+
+    <!--Social buttons-->
+    <div class="social-section text-center pb-4 ">
+        <ul class="d-flex justify-content-center">
+
+            <li><a href="#" class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"> </i></a></li>
+            <li><a href="#" class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"> </i></a></li>
+            <li><a href="#" class="btn-floating btn-sm btn-gplus"><i class="fa fa-google-plus"> </i></a></li>
+            <li><a href="#" class="btn-floating btn-sm btn-li"><i class="fa fa-linkedin"> </i></a></li>
+            <li><a href="#" class="btn-floating btn-sm btn-dribbble"><i class="fa fa-dribbble"> </i></a></li>
+
+        </ul>
+    </div>
+    <!--/.Social buttons-->
+
+    <!--Copyright-->
+    <div class="footer-copyright">
+        <div class="container-fluid text-center">
+            © 2017 Copyright: <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
+
+        </div>
+    </div>
+    <!--/.Copyright-->
+
+</footer>
+
+
+  <!-- Return to Top -->
+    <a href="javascript:" id="return-to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+  </body>
+</html>

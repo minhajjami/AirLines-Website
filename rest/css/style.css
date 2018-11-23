@@ -1,0 +1,316 @@
+/*booking style start here*/
+*{
+	font-family: 'Lato', sans-serif;
+}
+header #navbar-example .active {
+  color: #fff;
+  background-color: #e01933;
+}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+   
+}
+
+.main-nav{
+	box-shadow: 1px 1px gray;
+}
+#booking{
+	
+	padding-bottom:50px; 
+}
+#booking .flight-booking .flight-booking-txt h1 {
+	font-size: 1.8rem;
+	color: #e01933;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+#booking .flight-booking .flight-booking-txt p{
+	font-size: 1.2rem;
+	padding-bottom: 20px;
+}
+#booking .flight-booking .flight-booking-txt p span {
+	font-weight: bold;
+}
+#booking .flight-booking .form h1 {
+	border-left: 1px solid #fff;
+	padding: 5px 0;
+	color: #ffffff;
+	font-size: 1.5rem;
+	background-color: #142d4b;
+}
+#booking .flight-booking .form{
+	/*background-color: #dadcdf;*/
+}
+#booking .flight-booking .btn {
+	background-color:  #142d4b;
+}
+#booking .flight-booking a{
+	text-decoration: none;
+}
+
+#booking .flight-booking select {
+	height: 38px;
+}
+/*booking style end here*/
+
+/*flight schedules style start here*/
+#flight-schedules .flight-schedules-txt h1 {
+	font-size: 1.5rem;
+}
+#flight-schedules .flight-schedules-txt p span {
+	font-weight: bold;
+}
+#flight-schedules .flight-schedules-form {
+	background-color: #e1eaf6;
+}
+
+
+/*flight schedules style end here*/
+
+
+/*bound flight style start here*/
+#bound-flight .bound-flight-color {
+	background-color: #844f7f;
+	color: #fff;
+}
+#bound-flight .bound-flight-color th {
+	border-right: 1px solid #ffffff;
+}
+#bound-flight table .btn {
+	background-color: #663366;
+	border-color: #663366;
+}
+
+/*bound flight style end here*/
+
+/*fare rules style  start here*/
+
+#fare-rules .fare-rules-txt h1 {
+	font-size: 1.5rem;
+}
+#fare-rules .fare-rules-txt p span {
+	font-weight: bold;
+}
+#fare-rules .fare-rules-table .economy-background {
+	background-color: #663366;
+}
+#fare-rules .fare-rules-table .premium-background {
+	background-color: #2d425d;
+}
+#fare-rules .fare-rules-table .business-background {
+	background-color: #bba454;
+}
+#fare-rules .fare-rules-table tbody th td {
+	text-align: center;
+	justify-content: space-between;
+}
+#fare-rules .fare-rules-table thead h1 {
+	font-size: 1.2rem;
+}
+.seat-map-body-bg {
+	background-color: #f1f0ed;
+}
+.seat-map h1 {
+	font-size: 1.5rem;
+	margin-top: 50px;
+}
+/*fare rules style  end here*/
+
+
+/*where we fly style start here*/
+#where-we-fly h1 {
+	font-size: 1.5rem;
+}
+/*where we fly style end here*/
+
+/*enhance new feeling style start here*/
+
+#enhance-new-feeling .pay-details {
+	background-color: #ffffff;
+}
+
+#enhance-new-feeling .pay-details .btn {
+	background-color: #24acc5;
+}
+
+
+
+/*enhance new feeling style end here*/
+
+
+
+
+
+
+
+
+
+/*group booking form style start here*/
+#group-booking .group-booking-txt h1{
+	font-size: 1.8rem;
+	color: #e01933;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+#group-booking .group-booking-login-form {
+	border: 2px solid #e01933;
+	padding: 20px 0;
+	border-radius: 3%;
+}
+#group-booking .media i{
+	color:#e01933; 
+}
+#group-booking .group-booking-login-form h2 {
+	font-size: 1.3rem;
+	margin-bottom: 20px;
+	text-align: center;
+}
+#group-booking .group-booking-login-form input {
+	width: 250px;
+}
+/*group booking form style end here*/
+
+/*bording pass style start here*/
+
+#bording-pass .bording-pass-card .card-body {
+	background-color: #ddd;
+}
+/*bording pass style end here*/
+
+/*check in style start here*/
+#checkin {
+	
+	padding-bottom: 50px;
+}
+#checkin .nav-tabs .nav-link.active {
+	background-color: #e01933;
+	color: #fff;
+	position: relative;
+}
+#checkin .nav-tabs .nav-link.active:before {
+	border-left: 12px solid #fff !important;
+    border-right: 12px solid #fff !important;
+    border-top: 12px solid #e01933 !important;
+    content: " ";
+    height: 0;
+    left: 44% !important;
+    position: absolute;
+    top: 100% !important;
+    width: 0;
+}
+#checkin .nav-tabs {
+	border-bottom: none;
+}
+
+#checkin nav a {
+	color: #000;
+}
+/*check in style end here*/
+
+footer{
+	padding:20px;
+	background-color: #3e4551;
+	color: white;
+
+}
+
+footer ul{
+	list-style-type: none;
+}
+footer ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+footer ul li a:hover{
+  color: #dc3545;
+
+}
+.footer-copyright{
+	background-color: #212529;
+	padding: 15px;
+}
+.social-section i {
+  padding: 10px;
+  height: 45px;
+  width: 45px;
+  font-size: 25px;
+  /*background-color: red;*/
+  border-radius: 50%;
+}
+
+.social-section .fa-facebook {
+  background-color: #395a91;
+}
+.social-section .fa-twitter {
+  background-color: #50acff;
+}
+.social-section .fa-google-plus {
+  background-color: #dc4e38;
+}
+.social-section .fa-linkedin {
+  background-color: #0085cd;
+}
+.social-section .fa-dribbble {
+  background-color: #ed4c8f;
+}
+
+
+
+
+/*top scroll*/
+
+
+
+
+
+
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff0000;
+    /*background: rgb(0, 0, 0);*/
+    /*background: rgba(0, 0, 0, 0.7);*/
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    /*background: rgba(0, 0, 0, 0.9);*/
+    background-color: #003670;
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+
+
+
+
